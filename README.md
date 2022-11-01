@@ -1,2 +1,4 @@
-# base
-go module "bitwormhole.com/starter/base"
+# base (bitwormhole.com/starter/base)
+
+源代码：
+    https://github.com/bitwormhole-starter/base
