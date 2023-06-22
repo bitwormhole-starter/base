@@ -1,5 +1,5 @@
-module bitwormhole.com/starter/base
+module github.com/starter-go/base
 
 go 1.18
 
-require bitwormhole.com/starter/vlog v0.0.0-20220717141231-71498d1f5184 // indirect
+require github.com/starter-go/vlog v0.0.2 // direct

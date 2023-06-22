@@ -1,4 +1,4 @@
-# base (bitwormhole.com/starter/base)
+# base (github.com/starter-go/base)
 
 源代码：
-    https://github.com/bitwormhole-starter/base
+    https://github.com/starter-go/base
