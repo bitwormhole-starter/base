@@ -2,3 +2,5 @@ github.com/starter-go/vlog v0.0.0-20220717141231-71498d1f5184 h1:HkOmqSZbE+I0kE3
 github.com/starter-go/vlog v0.0.0-20220717141231-71498d1f5184/go.mod h1:bb4xDVyOD0+tAhaiscUmuzsFJ+/EL+qE79Je8U0ZqTQ=
 github.com/starter-go/vlog v0.0.2 h1:7oT9RifO4/aAQrNGu98D9Ss0sk56bMP0iKo8B299gQ0=
 github.com/starter-go/vlog v0.0.2/go.mod h1:WSaU9IGbEaDe/Eoh2W8JOjSn6wdjfGkgBbxJxaqUI/0=
+github.com/starter-go/vlog v0.9.0 h1:RuWHk9dLb9JPKflDrROsYhjAkoxAHI7eZ3avHyJXtQw=
+github.com/starter-go/vlog v0.9.0/go.mod h1:WSaU9IGbEaDe/Eoh2W8JOjSn6wdjfGkgBbxJxaqUI/0=
