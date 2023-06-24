@@ -15,6 +15,11 @@ func Safe() Mode {
 	return &modeSafe{}
 }
 
+// Default 默认模式
+func Default() Mode {
+	return Safe()
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 
 type modeFast struct{}
