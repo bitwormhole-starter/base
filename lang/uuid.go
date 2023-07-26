@@ -55,3 +55,9 @@ func ParseUUID(str string) UUID {
 	u := UUID(str)
 	return u.Normalize()
 }
+
+// UUIDGenerator 是 UUID 生成器的接口
+type UUIDGenerator interface {
+	Generate(params ...string) UUID
+	GenerateWithMap(m map[string]string) UUID
+}
