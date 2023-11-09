@@ -2,6 +2,7 @@ package lang
 
 import (
 	"testing"
+	"time"
 )
 
 func TestTime(t *testing.T) {
@@ -36,4 +37,27 @@ func TestTime(t *testing.T) {
 	}
 
 	t.Log("done")
+}
+
+func TestTimeDur(t *testing.T) {
+
+	t1 := Now()
+	time.Sleep(time.Second * 2)
+	t2 := Now()
+
+	d := t2.Sub(t1)
+	ds := NewSeconds(d)
+	dms := NewMilliseconds(d)
+
+	t3 := t1.Add(ds.Duration())
+	t4 := t1.Add(dms.Duration())
+
+	t.Logf("t1  = %d", t1)
+	t.Logf("t2  = %d", t2)
+	t.Logf("t3  = %d", t3)
+	t.Logf("t4  = %d", t4)
+
+	t.Logf("d(duration) = %d", d)
+	t.Logf("d(s)        = %d", ds)
+	t.Logf("d(ms)       = %d", dms)
 }
